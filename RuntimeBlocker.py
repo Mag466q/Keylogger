@@ -1,4 +1,4 @@
-import keyboard  # for keylogs
+import keyboard  
 
 import smtplib
 from email.mime.multipart import MIMEMultipart
